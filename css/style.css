@@ -39,6 +39,11 @@ body {
   background-color: #f9d6dd;
 }
 
+.logo h1 a {
+  text-decoration: none;
+  color: #de5973;
+}
+
 .nav-items {
   display: flex;
   align-items: center;

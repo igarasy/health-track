@@ -1,0 +1,24 @@
+.login {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 1000px;
+  background-color: #fec4cf;
+}
+
+.form-control {
+  margin-top: 0.5rem;
+}
+
+.checkbox {
+  margin-top: 0.5rem;
+}
+
+.fw-normal,
+label {
+  color: #757575;
+}
+
+.btn-primary {
+  margin-top: 0.5rem;
+}
