@@ -1,0 +1,19 @@
+.hero-section {
+  border: solid red;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #fec4cf;
+}
+
+.card {
+  margin: auto;
+}
+
+.card img {
+  height: 100px;
+  width: 100px;
+  padding: 0.4rem;
+  margin: 0 auto;
+}

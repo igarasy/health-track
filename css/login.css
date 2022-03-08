@@ -18,3 +18,8 @@
 label {
   color: #757575;
 }
+
+.btn-primary a {
+  color: white;
+  text-decoration: none;
+}
