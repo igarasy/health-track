@@ -1,5 +1,4 @@
 .hero-section {
-  border: solid red;
   height: 100%;
   margin: 0 auto;
   display: grid;
@@ -9,6 +8,8 @@
 
 .card {
   margin: auto;
+  width: 18rem;
+  height: 400px;
 }
 
 .card img {
@@ -16,4 +17,19 @@
   width: 100px;
   padding: 0.4rem;
   margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  .hero-section {
+    height: 300vh;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+  }
+  .card {
+    margin: 10rem auto;
+    width: 18rem;
+    height: 400px;
+  }
 }

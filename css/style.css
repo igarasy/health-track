@@ -36,7 +36,12 @@ body {
   padding: 10rem;
   max-width: 100vw;
   max-height: 4rem;
-  background-color: #f9d6dd;
+  background: rgb(251, 230, 235);
+  background: linear-gradient(
+    61deg,
+    rgba(251, 230, 235, 0.865983893557423) 0%,
+    rgba(222, 89, 115, 0.577468487394958) 100%
+  );
 }
 
 .logo h1 a {
@@ -86,4 +91,24 @@ a {
 
 .col-lg-8 img {
   margin-left: 20px;
+}
+
+@media (max-width: 640px) {
+  .navbar {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 30vw;
+  }
+
+  .row {
+    display: grid;
+  }
+  .nav-items {
+    display: grid;
+    align-items: center;
+    margin-top: 0.3rem;
+  }
+  .wrapper {
+    display: grid;
+  }
 }
